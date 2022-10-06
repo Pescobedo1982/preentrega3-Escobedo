@@ -1,0 +1,16 @@
+footer {
+    border-style: double;
+    display: flex;
+    height: 130px;
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            height: 100px;
+
+        }
+    }
+
+}
