@@ -70,10 +70,10 @@ body .row h3 {
   color: blue;
 }
 body .row .carousel-control-prev-icon {
-  background-color: red;
+  background-color: black;
 }
 body .row .carousel-control-next-icon {
-  background-color: red;
+  background-color: black;
 }
 body .row form {
   color: aliceblue;
@@ -93,7 +93,7 @@ body .row .egipto {
   color: rgb(106, 107, 163);
 }
 body .row .egipto2 {
-  padding: 15px;
+  padding-top: 15px;
   color: rgb(47, 51, 90);
 }
 body .row .egipto3 {
