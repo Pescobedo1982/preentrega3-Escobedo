@@ -35,33 +35,175 @@ body hr {
   width: 100%;
   background-color: black;
 }
-body .col-12 {
+body .container .adp {
   text-align: center;
+  align-items: center;
 }
-body .col-12 h1 {
+body .container .adp h1 {
   color: black;
   font-size: 50px;
   font-family: "Nabla", cursive;
   font-family: "Rubik Dirt", cursive;
 }
-body .col-12 h2 {
+body .container .adp h2 {
   color: blue;
 }
-body .col-12 p {
+body .container .adp p {
   color: black;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body .row {
-  margin: 50px;
-  padding: 20px;
-  justify-content: center;
+body .container .com {
+  text-align: center;
+  align-items: center;
 }
-body .row a:hover {
+body .container .com h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+body .container .com h2 {
+  color: blue;
+}
+body .container .com p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .container .com form {
+  color: aliceblue;
+  padding: 10px;
+  background-color: black;
+}
+body .container .com .comunidad {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+body .container .hist {
+  text-align: center;
+  align-items: center;
+}
+body .container .hist h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+body .container .hist h2 {
+  color: blue;
+}
+body .container .hist p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .container .hist .egipto {
+  color: rgb(106, 107, 163);
+}
+body .container .hist .egipto2 {
+  padding-top: 15px;
+  color: rgb(47, 51, 90);
+}
+body .container .hist .egipto3 {
+  text-align: center;
+  align-items: center;
+  line-height: 2;
+}
+body .container .hist .imgtexto img {
+  width: 100px;
+}
+body .container .raz {
+  text-align: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+body .container .raz h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+body .container .raz h2 {
+  color: blue;
+}
+body .container .raz p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .container .raz .text1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+body .container .raz .text2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+body .container .red {
+  text-align: center;
+  align-items: center;
+}
+body .container .red h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+body .container .red h2 {
+  color: blue;
+}
+body .container .red p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .container .red .redes {
+  text-align: center;
+  align-items: center;
+}
+body .container .red .redes img {
+  padding-left: 30px;
+}
+body .container .inicio {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+body .container .inicio h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+body .container .inicio h2 {
+  color: blue;
+  padding-top: 15px;
+}
+body .container .inicio p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+body .container .inicio a:hover {
   text-decoration: none;
   color: red;
 }
-body .row h3 {
+body .container .inicio h3 {
   font-family: "Rubik Dirt", cursive;
   font-family: "Nabla", cursive;
   font-family: "Alkalami", serif;
@@ -69,118 +211,75 @@ body .row h3 {
   text-align: center;
   color: blue;
 }
-body .row .carousel-control-prev-icon {
+body .container .inicio .carousel-control-prev-icon {
   background-color: black;
 }
-body .row .carousel-control-next-icon {
+body .container .inicio .carousel-control-next-icon {
   background-color: black;
 }
-body .row form {
-  color: aliceblue;
-  padding: 10px;
-  background-color: black;
-}
-body .row #carouselExampleControls img {
-  height: 400px;
-  width: 350px;
-}
-body .row .comunidad {
-  padding: 20px;
-  text-align: center;
-  align-items: center;
-}
-body .row .egipto {
-  color: rgb(106, 107, 163);
-}
-body .row .egipto2 {
-  padding-top: 15px;
-  color: rgb(47, 51, 90);
-}
-body .row .egipto3 {
-  text-align: center;
-  line-height: 2;
-}
-body .row .imgtexto img {
-  width: 100px;
-}
-body .row .text1 {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  text-align: center;
-}
-body .row .text2 {
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-body .row .redes {
-  text-align: center;
-  align-items: center;
-}
-body .row .redes img {
-  padding-left: 30px;
-}
-body .row #anuncio {
-  position: fixed;
-  top: 280px;
-  right: 20px;
-}
-body .row #anuncio:hover .x {
-  font-weight: bold;
-  color: red;
-  font-size: 20px;
-}
-body .row #anuncio p {
-  text-align: center;
-  color: black;
-  font-style: italic;
-}
-body .row #anuncio img {
-  border-radius: 30px solid;
-}
-body .leyenda {
+body .container .inicio .leyenda {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
   text-align: center;
   width: 400px;
 }
-body .leyenda h4 {
+body .container .inicio .leyenda h4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
 }
-body .leyenda img {
+body .container .inicio .leyenda img {
   width: 400px;
 }
-body .leyenda .leyenda1 {
+body .container .inicio .leyenda .leyenda1 {
   background-color: rgba(205, 236, 236, 0.658);
   padding: 10px;
   text-align: center;
   line-height: 2;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-body .leyenda .leyenda1 img {
+body .container .inicio .leyenda .leyenda1 img {
   width: 200px;
 }
-body .cine {
-  padding: 10px;
+body .container .inicio .cine {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   width: 400px;
 }
-body .cine img {
+body .container .inicio .cine img {
   width: 400px;
 }
-body .cine .modal-content {
+body .container .inicio .cine .modal-content {
   margin: 10px;
   justify-content: center;
 }
-body .cine .modal-content img {
+body .container .inicio .cine .modal-content img {
   padding: 5px;
   width: 100px;
 }
-body .cine .modal-content p {
+body .container .inicio .cine .modal-content p {
   padding: 5px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+body #anuncio {
+  position: fixed;
+  top: 280px;
+  right: 20px;
+}
+body #anuncio:hover .x {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+body #anuncio p {
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+body #anuncio img {
+  border-radius: 30px solid;
 }
 @media only screen and (max-width: 1000px) {
   body footer {
@@ -188,5 +287,9 @@ body .cine .modal-content p {
   }
   body #anuncio {
     display: none;
+  }
+  body #carouselExampleControls img {
+    height: 400px;
+    width: 350px;
   }
 }/*# sourceMappingURL=estilo.css.map */

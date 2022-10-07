@@ -4,3 +4,7 @@ $gato_negro: black;
 $gato_azul: blue;
 @import "_header.scss";
 @import "_footer.scss";
+@mixin center{
+    text-align: center;
+    align-items: center;
+}

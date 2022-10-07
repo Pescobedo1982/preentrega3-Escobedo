@@ -1,8 +1,5 @@
 @import "_vars.scss";
-@mixin centrar-todo {
-    text-align: center;
-    align-items: center;
-}
+
 
 * {
     margin: 0;
@@ -19,10 +16,31 @@ body {
         width: 100%;
         background-color: $gato_negro;
     }
-
-    .col-12 {
-
-        @include centrar-todo;
+    .container{ 
+        
+        .adp{
+        @include center;
+            h1{
+                color: $gato_negro;
+                font-size: 50px;
+                font-family: 'Nabla', cursive;
+                font-family: 'Rubik Dirt', cursive;
+            }
+            h2 {
+                color: $gato_azul
+            }
+    
+    
+            p {
+                color: $gato_negro;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+            }
+        
+    }
+    .com{
+        @include center;
 
         h1 {
             color: $gato_negro;
@@ -42,58 +60,39 @@ body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
 
         }
-    }
-
-
-
-    .row {
-        margin: 50px;
-        padding: 20px;
-        justify-content: center;
-
-        a:hover {
-            text-decoration: none;
-            color: $gato_rojo;
-        }
-
-        h3 {
-            font-family: 'Rubik Dirt', cursive;
-            font-family: 'Nabla', cursive;
-            font-family: 'Alkalami', serif;
-            font-size: 30px;
-            text-align: center;
-            color: $gato_azul;
-
-        }
-
-
-        .carousel-control-prev-icon {
-
-            background-color: $gato_negro
-        }
-
-        .carousel-control-next-icon {
-            background-color: $gato_negro;
-        }
-
         form {
             color: aliceblue;
             padding: 10px;
             background-color: $gato_negro;
         }
 
-
-
-        #carouselExampleControls img {
-            height: 400px;
-            width: 350px;
-        }
-
         .comunidad {
-            padding: 20px;
-            @include centrar-todo;
+
+            padding: 10px;
+            @include center;
+        }
+    }
+    .hist{
+        @include center;
+
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
         }
 
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
         .egipto {
             color: rgb(106, 107, 163);
         }
@@ -114,117 +113,232 @@ body {
                 width: 100px;
             }
         }
+    }
+    .raz{
+        @include center;
+           padding-bottom: 50px;
+           padding-top: 50px;
+            
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
 
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
         .text1 {
             color: $gato_blanco;
             font-family: 'Times New Roman', Times, serif;
             font-size: 25px;
-            @include centrar-todo;
+            @include center;
         }
 
         .text2 {
             color: $gato_blanco;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 20px;
-            @include centrar-todo;
+            @include center;
+        }
+    }
+    .red{
+        @include center;
+
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
         }
 
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
         .redes {
-            @include centrar-todo;
+            @include center;
         }
 
         .redes img {
             padding-left: 30px;
         }
 
-        #anuncio {
+    }
+
+
+
+
+
+    .inicio {
+        @include center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
+
+
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        h2 {
+            color: $gato_azul;
+            padding-top: 15px;
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom: 50px;
+            padding-top: 15px;
+
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: $gato_rojo;
+        }
+
+        h3 {
+            font-family: 'Rubik Dirt', cursive;
+            font-family: 'Nabla', cursive;
+            font-family: 'Alkalami', serif;
+            font-size: 30px;
+            text-align: center;
+            color: $gato_azul;
+           
+
+        }
+
+
+        .carousel-control-prev-icon {
+
+            background-color: $gato_negro
+        }
+
+        .carousel-control-next-icon {
+            background-color: $gato_negro;
+        }
+
+       
+
+
+
+       
+        
+       
+        .leyenda {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            justify-content: center;
+            text-align: center;
+            width: 400px;
+    
+            h4 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 25px;
+            }
+    
+            img {
+                width: 400px;
+            }
+    
+            .leyenda1 {
+                background-color: rgba(205, 236, 236, 0.658);
+                padding: 10px;
+                text-align: center;
+                line-height: 2.0;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+    
+                img {
+                    width: 200px;
+    
+                }
+    
+            }
+        }
+    
+    
+    
+    
+        .cine {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            width: 400px;
+    
+            img {
+                width: 400px;
+            }
+    
+            .modal-content {
+                margin: 10px;
+                justify-content: center;
+    
+                img {
+                    padding: 5px;
+                    width: 100px;
+    
+                }
+    
+                p {
+    
+                    padding: 5px;
+                    text-align: center;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+                }
+            }
+        }
+    }
+    }
+
+     #anuncio {
             position: fixed;
             top: 280px;
             right: 20px;
-
+    
             &:hover .x {
                 font-weight: bold;
                 color: $gato_rojo;
                 font-size: 20px;
             }
-
+    
             p {
                 text-align: center;
                 color: $gato_negro;
                 font-style: italic;
             }
-
+    
             img {
                 border-radius: 30px solid;
             }
-
+    
         }
-
-    }
-
-
-    .leyenda {
-
-        text-align: center;
-        width: 400px;
-
-        h4 {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 25px;
-        }
-
-        img {
-            width: 400px;
-        }
-
-        .leyenda1 {
-            background-color: rgba(205, 236, 236, 0.658);
-            padding: 10px;
-            text-align: center;
-            line-height: 2.0;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-
-            img {
-                width: 200px;
-
-            }
-
-        }
-    }
-
-
-
-
-    .cine {
-        padding: 10px;
-        text-align: center;
-        width: 400px;
-
-        img {
-            width: 400px;
-        }
-
-        .modal-content {
-            margin: 10px;
-            justify-content: center;
-
-            img {
-                padding: 5px;
-                width: 100px;
-
-            }
-
-            p {
-
-                padding: 5px;
-                text-align: center;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-            }
-        }
-    }
-
 
 
     @media only screen and (max-width: 1000px) {
@@ -234,6 +348,10 @@ body {
 
         #anuncio {
             display: none;
+        }
+        #carouselExampleControls img {
+            height: 400px;
+            width: 350px;
         }
     }
 
