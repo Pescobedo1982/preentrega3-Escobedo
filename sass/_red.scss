@@ -1,0 +1,35 @@
+.container{
+    .red{
+        @include center;
+        
+        margin: 30px;
+        padding: 20px;
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        .redes {
+            @include center;
+        }
+
+        .redes img {
+            text-align: center;
+            padding-left: 30px;
+        }
+
+    }
+}

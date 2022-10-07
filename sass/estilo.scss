@@ -19,7 +19,8 @@ body {
     .container{ 
         
         .adp{
-        @include center;
+            @include center;
+            margin: 50px;
             h1{
                 color: $gato_negro;
                 font-size: 50px;
@@ -35,13 +36,18 @@ body {
                 color: $gato_negro;
                 font-size: 20px;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+                padding-bottom: 20px;
             }
+        
         
     }
     .com{
         @include center;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
         h1 {
             color: $gato_negro;
             font-size: 50px;
@@ -61,9 +67,10 @@ body {
 
         }
         form {
+            width: 80%;
             color: aliceblue;
             padding: 10px;
-            background-color: $gato_negro;
+            background-color: rgb(169, 167, 197);
         }
 
         .comunidad {
@@ -72,88 +79,13 @@ body {
             @include center;
         }
     }
-    .hist{
-        @include center;
-
-        h1 {
-            color: $gato_negro;
-            font-size: 50px;
-            font-family: 'Nabla', cursive;
-            font-family: 'Rubik Dirt', cursive;
-        }
-
-        h2 {
-            color: $gato_azul
-        }
-
-
-        p {
-            color: $gato_negro;
-            font-size: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        }
-        .egipto {
-            color: rgb(106, 107, 163);
-        }
-
-        .egipto2 {
-            padding-top: 15px;
-            color: rgb(47, 51, 90);
-
-        }
-
-        .egipto3 {
-            @include center;
-            line-height: 2.0;
-            
-        }
-        .imgtexto{
-            img{
-                width: 100px;
-            }
-        }
-    }
-    .raz{
-        @include center;
-           padding-bottom: 50px;
-           padding-top: 50px;
-            
-        h1 {
-            color: $gato_negro;
-            font-size: 50px;
-            font-family: 'Nabla', cursive;
-            font-family: 'Rubik Dirt', cursive;
-        }
-
-        h2 {
-            color: $gato_azul
-        }
-
-
-        p {
-            color: $gato_negro;
-            font-size: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
-        }
-        .text1 {
-            color: $gato_blanco;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 25px;
-            @include center;
-        }
-
-        .text2 {
-            color: $gato_blanco;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 20px;
-            @include center;
-        }
-    }
+    
+   
     .red{
         @include center;
-
+        
+        margin: 30px;
+        padding: 20px;
         h1 {
             color: $gato_negro;
             font-size: 50px;
@@ -177,6 +109,7 @@ body {
         }
 
         .redes img {
+            text-align: center;
             padding-left: 30px;
         }
 
@@ -349,10 +282,10 @@ body {
         #anuncio {
             display: none;
         }
-        #carouselExampleControls img {
-            height: 400px;
-            width: 350px;
+        form{
+            width: 100%;
         }
+        
     }
 
 }

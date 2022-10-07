@@ -1,0 +1,40 @@
+.container{
+    .com{
+        @include center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        form {
+            width: 80%;
+            color: aliceblue;
+            padding: 10px;
+            background-color: rgb(169, 167, 197);
+        }
+
+        .comunidad {
+
+            padding: 10px;
+            @include center;
+        }
+    }
+}

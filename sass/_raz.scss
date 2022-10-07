@@ -1,0 +1,46 @@
+.container
+ {
+    .raz{
+        @include center;
+    
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+       
+        .text1 {
+            color: $gato_blanco;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            @include center;
+            
+        }
+        
+       
+
+        .text2 {
+            color: $gato_blanco;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            @include center;
+        }
+       
+    }
+}

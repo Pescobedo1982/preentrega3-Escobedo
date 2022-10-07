@@ -1,0 +1,49 @@
+.container{
+    .hist{
+        @include center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
+        h1 {
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        .egipto {
+            color: rgb(106, 107, 163);
+        }
+
+        .egipto2 {
+            padding-top: 15px;
+            color: rgb(47, 51, 90);
+
+        }
+
+        .egipto3 {
+            @include center;
+            line-height: 2.0;
+            
+        }
+        .imgtexto{
+            img{
+                width: 100px;
+            }
+        }
+    }
+
+}
