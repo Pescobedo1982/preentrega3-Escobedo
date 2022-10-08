@@ -245,6 +245,14 @@ body .container .inicio .leyenda2 {
   line-height: 2;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+body .container .inicio .leyenda {
+  text-align: center;
+  align-items: center;
+}
+body .container .inicio .cine {
+  text-align: center;
+  align-items: center;
+}
 body .container .inicio .cine .modal-content {
   margin: 10px;
   justify-content: center;

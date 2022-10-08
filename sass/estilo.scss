@@ -83,7 +83,12 @@ body {
                 font-family: Georgia, 'Times New Roman', Times, serif;
         }
         
+        .leyenda{
+            @include center;
+        }
+
         .cine {
+            @include center;
                
                 .modal-content {
                 margin: 10px;
