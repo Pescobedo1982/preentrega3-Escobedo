@@ -21,6 +21,166 @@ footer div img {
   height: 100px;
 }
 
+.container .raz {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .raz h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .raz h2 {
+  color: blue;
+}
+.container .raz p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .raz .text1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+.container .raz .text2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.container .hist {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .hist h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .hist h2 {
+  color: blue;
+}
+.container .hist p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .hist .egipto {
+  color: rgb(106, 107, 163);
+}
+.container .hist .egipto2 {
+  padding-top: 15px;
+  color: rgb(47, 51, 90);
+}
+.container .hist .egipto3 {
+  text-align: center;
+  align-items: center;
+  line-height: 2;
+}
+.container .hist .imgtexto img {
+  width: 100px;
+}
+
+.container .com {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .com h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .com h2 {
+  color: blue;
+}
+.container .com p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .com form {
+  width: 80%;
+  color: aliceblue;
+  padding: 10px;
+  background-color: rgb(169, 167, 197);
+}
+.container .com .comunidad {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.container .red {
+  text-align: center;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .red h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .red h2 {
+  color: blue;
+}
+.container .red p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .red .redes {
+  text-align: center;
+  align-items: center;
+}
+.container .red .redes img {
+  text-align: center;
+  padding-left: 30px;
+}
+
+.container .adp {
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+}
+.container .adp h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .adp h2 {
+  color: blue;
+}
+.container .adp p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,161 +194,6 @@ body hr {
   height: 3px;
   width: 100%;
   background-color: black;
-}
-body .container .adp {
-  text-align: center;
-  align-items: center;
-  margin: 50px;
-}
-body .container .adp h1 {
-  color: black;
-  font-size: 50px;
-  font-family: "Nabla", cursive;
-  font-family: "Rubik Dirt", cursive;
-}
-body .container .adp h2 {
-  color: blue;
-}
-body .container .adp p {
-  color: black;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-bottom: 20px;
-}
-body .container .com {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 30px;
-  padding: 20px;
-}
-body .container .com h1 {
-  color: black;
-  font-size: 50px;
-  font-family: "Nabla", cursive;
-  font-family: "Rubik Dirt", cursive;
-}
-body .container .com h2 {
-  color: blue;
-}
-body .container .com p {
-  color: black;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body .container .com form {
-  width: 80%;
-  color: aliceblue;
-  padding: 10px;
-  background-color: rgb(169, 167, 197);
-}
-body .container .com .comunidad {
-  padding: 10px;
-  text-align: center;
-  align-items: center;
-}
-body .container .hist {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 30px;
-  padding: 20px;
-}
-body .container .hist h1 {
-  color: black;
-  font-size: 50px;
-  font-family: "Nabla", cursive;
-  font-family: "Rubik Dirt", cursive;
-}
-body .container .hist h2 {
-  color: blue;
-}
-body .container .hist p {
-  color: black;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body .container .hist .egipto {
-  color: rgb(106, 107, 163);
-}
-body .container .hist .egipto2 {
-  padding-top: 15px;
-  color: rgb(47, 51, 90);
-}
-body .container .hist .egipto3 {
-  text-align: center;
-  align-items: center;
-  line-height: 2;
-}
-body .container .hist .imgtexto img {
-  width: 100px;
-}
-body .container .raz {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-  padding: 20px;
-}
-body .container .raz h1 {
-  color: black;
-  font-size: 50px;
-  font-family: "Nabla", cursive;
-  font-family: "Rubik Dirt", cursive;
-}
-body .container .raz h2 {
-  color: blue;
-}
-body .container .raz p {
-  color: black;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body .container .raz .text1 {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  text-align: center;
-  align-items: center;
-}
-body .container .raz .text2 {
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  text-align: center;
-  align-items: center;
-}
-body .container .red {
-  text-align: center;
-  align-items: center;
-  margin: 30px;
-  padding: 20px;
-}
-body .container .red h1 {
-  color: black;
-  font-size: 50px;
-  font-family: "Nabla", cursive;
-  font-family: "Rubik Dirt", cursive;
-}
-body .container .red h2 {
-  color: blue;
-}
-body .container .red p {
-  color: black;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body .container .red .redes {
-  text-align: center;
-  align-items: center;
-}
-body .container .red .redes img {
-  text-align: center;
-  padding-left: 30px;
 }
 body .container .inicio {
   text-align: center;
@@ -234,38 +239,11 @@ body .container .inicio .carousel-control-prev-icon {
 body .container .inicio .carousel-control-next-icon {
   background-color: black;
 }
-body .container .inicio .leyenda {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: center;
-  text-align: center;
-  width: 400px;
-}
-body .container .inicio .leyenda h4 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-}
-body .container .inicio .leyenda img {
-  width: 400px;
-}
-body .container .inicio .leyenda .leyenda1 {
+body .container .inicio .leyenda2 {
   background-color: rgba(205, 236, 236, 0.658);
-  padding: 10px;
   text-align: center;
   line-height: 2;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-body .container .inicio .leyenda .leyenda1 img {
-  width: 200px;
-}
-body .container .inicio .cine {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  width: 400px;
-}
-body .container .inicio .cine img {
-  width: 400px;
 }
 body .container .inicio .cine .modal-content {
   margin: 10px;
@@ -307,5 +285,8 @@ body #anuncio img {
   }
   body form {
     width: 100%;
+  }
+  body .imgley img {
+    width: 80%;
   }
 }/*# sourceMappingURL=estilo.css.map */

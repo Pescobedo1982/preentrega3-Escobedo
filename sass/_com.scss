@@ -1,3 +1,7 @@
+@mixin center{
+    text-align: center;
+    align-items: center;
+}
 .container{
     .com{
         @include center;
