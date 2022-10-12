@@ -1,11 +1,12 @@
 footer {
     border-style: double;
     display: flex;
+    flex-direction: row;
     height: 130px;
 
     div {
         display: flex;
-        justify-content: space-evenly;
+        justify-content:space-between;
 
         img {
             height: 100px;

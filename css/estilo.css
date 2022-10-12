@@ -11,11 +11,12 @@
 footer {
   border-style: double;
   display: flex;
+  flex-direction: row;
   height: 130px;
 }
 footer div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 footer div img {
   height: 100px;
@@ -120,6 +121,7 @@ footer div img {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container .com form {
+  text-align: left;
   width: 80%;
   color: aliceblue;
   padding: 10px;
@@ -201,7 +203,7 @@ body .container .inicio {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 30px;
+  margin: 50px;
   padding: 20px;
 }
 body .container .inicio h1 {
@@ -225,7 +227,13 @@ body .container .inicio a:hover {
   text-decoration: none;
   color: red;
 }
-body .container .inicio h3 {
+body .container .inicio .carru {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+body .container .inicio .carru h3 {
   font-family: "Rubik Dirt", cursive;
   font-family: "Nabla", cursive;
   font-family: "Alkalami", serif;
@@ -233,10 +241,10 @@ body .container .inicio h3 {
   text-align: center;
   color: blue;
 }
-body .container .inicio .carousel-control-prev-icon {
+body .container .inicio .carru .carousel-control-prev-icon {
   background-color: black;
 }
-body .container .inicio .carousel-control-next-icon {
+body .container .inicio .carru .carousel-control-next-icon {
   background-color: black;
 }
 body .container .inicio .leyenda2 {
@@ -246,12 +254,21 @@ body .container .inicio .leyenda2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 body .container .inicio .leyenda {
+  padding: 50px;
+  margin: 50px;
   text-align: center;
   align-items: center;
 }
+body .container .inicio .leyenda h4 {
+  padding: 10px;
+}
 body .container .inicio .cine {
+  margin: 50px;
   text-align: center;
   align-items: center;
+}
+body .container .inicio .cine h4 {
+  padding: 10px;
 }
 body .container .inicio .cine .modal-content {
   margin: 10px;
@@ -259,7 +276,7 @@ body .container .inicio .cine .modal-content {
 }
 body .container .inicio .cine .modal-content img {
   padding: 5px;
-  width: 100px;
+  width: auto;
 }
 body .container .inicio .cine .modal-content p {
   padding: 5px;
@@ -294,7 +311,25 @@ body #anuncio img {
   body form {
     width: 100%;
   }
-  body .imgley img {
-    width: 80%;
+}
+@media only screen and (max-width: 500px) {
+  body #carouselExampleControls img {
+    width: 200px;
+  }
+  body .leyenda img {
+    width: 200px;
+  }
+  body .leyenda h3 {
+    font-size: 5px;
+  }
+  body .cine img {
+    width: 200px;
+  }
+  body .cine h3 {
+    font-weight: 5px;
+  }
+  body footer div {
+    display: inline-block;
+    text-align: center;
   }
 }/*# sourceMappingURL=estilo.css.map */

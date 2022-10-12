@@ -1,5 +1,6 @@
 @import "_vars.scss";
-@mixin center{
+
+@mixin center {
     text-align: center;
     align-items: center;
 }
@@ -19,122 +20,149 @@ body {
         width: 100%;
         background-color: $gato_negro;
     }
-    .container{ 
+
+    .container {
         .inicio {
-        @include center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 30px;
-        padding: 20px;
-        
+            @include center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 50px;
+            padding: 20px;
 
-        h1 {
-            color: $gato_negro;
-            font-size: 50px;
-            font-family: 'Nabla', cursive;
-            font-family: 'Rubik Dirt', cursive;
-        }
+           
+                
+            
+            h1 {
+                color: $gato_negro;
+                font-size: 50px;
+                font-family: 'Nabla', cursive;
+                font-family: 'Rubik Dirt', cursive;
+            }
 
-        h2 {
-            color: $gato_azul;
-            padding-top: 15px;
-        }
+            h2 {
+                color: $gato_azul;
+                padding-top: 15px;
+            }
 
 
-        p {
-            color: $gato_negro;
-            font-size: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding-bottom: 50px;
-            padding-top: 15px;
+            p {
+                color: $gato_negro;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding-bottom: 50px;
+                padding-top: 15px;
 
-        }
-        
-        a:hover {
-            text-decoration: none;
-            color: $gato_rojo;
-        }
+            }
 
-        h3 {
-            font-family: 'Rubik Dirt', cursive;
-            font-family: 'Nabla', cursive;
-            font-family: 'Alkalami', serif;
-            font-size: 30px;
-            text-align: center;
-            color: $gato_azul;
+            a:hover {
+                text-decoration: none;
+                color: $gato_rojo;
+            }
+            .carru{
+                display: flex;
+               justify-content: center;
+                @include center;
+
+                 h3 {
+                
+                font-family: 'Rubik Dirt', cursive;
+                font-family: 'Nabla', cursive;
+                font-family: 'Alkalami', serif;
+                font-size: 30px;
+                text-align: center;
+                color: $gato_azul;
+                
+
+
+            }
+
+
+            .carousel-control-prev-icon {
+
+                background-color: $gato_negro
+            }
+
+            .carousel-control-next-icon {
+                background-color: $gato_negro;
+            }
+
+            }
            
 
-        }
-
-
-        .carousel-control-prev-icon {
-
-            background-color: $gato_negro
-        }
-
-        .carousel-control-next-icon {
-            background-color: $gato_negro;
-        }
-               .leyenda2{
+            .leyenda2 {
                 background-color: rgba(205, 236, 236, 0.658);
                 text-align: center;
                 line-height: 2.0;
                 font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-        
-        .leyenda{
-            @include center;
-        }
+            }
 
-        .cine {
-            @include center;
+            .leyenda {
+                padding: 50px;
+                margin: 50px;
                
-                .modal-content {
-                margin: 10px;
-                justify-content: center;
-    
-                img {
-                    padding: 5px;
-                    width: 100px;
-    
+                @include center;
+
+                
+
+                h4 {
+                    padding: 10px;
                 }
-    
-                p {
-    
-                    padding: 5px;
-                    text-align: center;
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
+            }
+
+            .cine {
+                margin: 50px;
+                @include center;
+
+                h4 {
+                    padding: 10px;
+                }
+
+                .modal-content {
+                    margin: 10px;
+                    justify-content: center;
+
+                    img {
+                        padding: 5px;
+                        width: auto;
+
+                    }
+
+                    p {
+
+                        padding: 5px;
+                        text-align: center;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+                    }
                 }
             }
         }
-    }
     }
 
-     #anuncio {
-            position: fixed;
-            top: 280px;
-            right: 20px;
-    
-            &:hover .x {
-                font-weight: bold;
-                color: $gato_rojo;
-                font-size: 20px;
-            }
-    
-            p {
-                text-align: center;
-                color: $gato_negro;
-                font-style: italic;
-            }
-    
-            img {
-                border-radius: 30px solid;
-            }
-    
+    #anuncio {
+        position: fixed;
+        top: 280px;
+        right: 20px;
+
+        &:hover .x {
+            font-weight: bold;
+            color: $gato_rojo;
+            font-size: 20px;
         }
+
+        p {
+            text-align: center;
+            color: $gato_negro;
+            font-style: italic;
+        }
+
+        img {
+            border-radius: 30px solid;
+        }
+
+    }
 
 
     @media only screen and (max-width: 1000px) {
@@ -145,16 +173,51 @@ body {
         #anuncio {
             display: none;
         }
-        form{
+
+        form {
             width: 100%;
         }
-       .imgley{
-        img{
-           width: 80%; 
-        }
-        
-       }
-    }
- 
 
+
+    }
+
+
+    @media only screen and (max-width: 500px) {
+            
+            #carouselExampleControls{
+                img{
+                    width: 200px;
+                }
+            }
+        
+            .leyenda{
+                
+                img{
+                    width: 200px;
+                }
+                h3{
+                    font-size: 5px;
+                }
+                
+            }
+            .cine{
+                
+                img{
+                    width: 200px;
+                }
+                h3{
+                    font-weight: 5px;
+
+                }
+                
+            }
+        footer {
+            div {
+                display: inline-block;
+                text-align: center;
+            }
+
+        }
+
+    }
 }
