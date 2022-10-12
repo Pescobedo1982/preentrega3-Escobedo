@@ -332,4 +332,7 @@ body #anuncio img {
     display: inline-block;
     text-align: center;
   }
+  body footer div img {
+    width: 75px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
