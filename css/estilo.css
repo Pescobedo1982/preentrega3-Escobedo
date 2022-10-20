@@ -1,11 +1,41 @@
-.header {
+header {
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 220px;
+}
+header .row {
+  width: auto;
   display: flex;
   justify-content: center;
-  background-color: black;
-  height: 200px;
+  align-items: center;
 }
-.header video {
-  height: 200px;
+header .row video {
+  height: 150px;
+}
+header .row a {
+  text-decoration: none;
+}
+header .row a:hover {
+  color: #ffc824;
+}
+header .row ul {
+  height: 30px;
+  list-style: none;
+}
+header .row ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 10px;
+}
+header .row ul li a {
+  padding: 5px;
+  padding-bottom: 2px;
+  text-align: center;
+  display: flex;
+  color: white;
 }
 
 footer {
@@ -13,6 +43,7 @@ footer {
   display: flex;
   flex-direction: row;
   height: 130px;
+  background-color: white;
 }
 footer div {
   display: flex;
@@ -122,7 +153,7 @@ footer div img {
 }
 .container .com form {
   text-align: left;
-  width: 80%;
+  width: auto;
   color: aliceblue;
   padding: 10px;
   background-color: rgb(169, 167, 197);
@@ -132,55 +163,172 @@ footer div img {
   text-align: center;
   align-items: center;
 }
+.container .com .map {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  border-color: black 5px;
+}
+.container .com .map .cel {
+  color: red;
+}
+.container .com .map h5 {
+  padding: 10px;
+  color: black;
+}
+.container .com .map .mapa {
+  width: auto;
+}
 
-.container .red {
+.red {
   text-align: center;
   align-items: center;
-  margin: 30px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
 }
-.container .red h1 {
+.red h1 {
   color: black;
   font-size: 50px;
   font-family: "Nabla", cursive;
   font-family: "Rubik Dirt", cursive;
 }
-.container .red h2 {
+.red h2 {
   color: blue;
 }
-.container .red p {
+.red p {
   color: black;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.container .red .redes {
+.red .redes {
   text-align: center;
   align-items: center;
 }
-.container .red .redes img {
+.red .imgred {
   text-align: center;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
-.container .adp {
+.adp {
   text-align: center;
   align-items: center;
-  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
 }
-.container .adp h1 {
+.adp h1 {
   color: black;
   font-size: 50px;
   font-family: "Nabla", cursive;
   font-family: "Rubik Dirt", cursive;
 }
-.container .adp h2 {
+.adp h2 {
   color: blue;
 }
-.container .adp p {
+.adp p {
   color: black;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 20px;
+}
+.adp .crd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.adp .crd .card {
+  background-color: aquamarine;
+  width: 250px;
+  margin: 20px;
+}
+.adp .crd h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+.tnd {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.tnd h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.tnd h2 {
+  color: blue;
+}
+.tnd p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tittienda {
+  background-color: aquamarine;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.cnt {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.cnt #contenedor #boton {
+  display: none;
+}
+.cnt #contenedor:hover #boton {
+  display: block;
+  background-color: blue;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.cnt #contenedor img {
+  padding: 20px;
+  width: 180px;
+}
+
+.juguetes {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.juguetes #contenedor #boton {
+  display: none;
+}
+.juguetes #contenedor:hover #boton {
+  display: block;
+  background-color: red;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.juguetes #contenedor img {
+  padding: 20px;
+  width: 200px;
+  margin: 50px;
 }
 
 * {
@@ -190,14 +338,16 @@ footer div img {
 }
 
 body {
-  background-color: white;
+  background-image: linear-gradient(to top, rgb(112, 185, 110), rgb(212, 209, 31));
 }
-body hr {
+
+hr {
   height: 3px;
   width: 100%;
   background-color: black;
 }
-body .container .inicio {
+
+.container .inicio {
   text-align: center;
   align-items: center;
   display: flex;
@@ -206,133 +356,185 @@ body .container .inicio {
   margin: 50px;
   padding: 20px;
 }
-body .container .inicio h1 {
+.container .inicio img {
+  border-radius: 50px;
+}
+.container .inicio h1 {
   color: black;
   font-size: 50px;
   font-family: "Nabla", cursive;
   font-family: "Rubik Dirt", cursive;
 }
-body .container .inicio h2 {
+.container .inicio h2 {
   color: blue;
   padding-top: 15px;
 }
-body .container .inicio p {
+.container .inicio p {
   color: black;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 50px;
   padding-top: 15px;
 }
-body .container .inicio a:hover {
+.container .inicio a:hover {
   text-decoration: none;
   color: red;
 }
-body .container .inicio .carru {
+.container .inicio .carru {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-body .container .inicio .carru h3 {
+.container .inicio .carru h3 {
   font-family: "Rubik Dirt", cursive;
   font-family: "Nabla", cursive;
   font-family: "Alkalami", serif;
   font-size: 30px;
   text-align: center;
-  color: blue;
+  color: black;
 }
-body .container .inicio .carru .carousel-control-prev-icon {
+.container .inicio .carru .carousel-control-prev-icon {
   background-color: black;
 }
-body .container .inicio .carru .carousel-control-next-icon {
+.container .inicio .carru .carousel-control-next-icon {
   background-color: black;
 }
-body .container .inicio .leyenda2 {
+.container .inicio .leyenda2 {
   background-color: rgba(205, 236, 236, 0.658);
   text-align: center;
   line-height: 2;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-body .container .inicio .leyenda {
+.container .inicio .leyenda {
   padding: 50px;
   margin: 50px;
   text-align: center;
   align-items: center;
 }
-body .container .inicio .leyenda h4 {
+.container .inicio .leyenda img {
+  border-radius: 50px;
+}
+.container .inicio .leyenda h4 {
   padding: 10px;
 }
-body .container .inicio .cine {
+.container .inicio .cine {
   margin: 50px;
   text-align: center;
   align-items: center;
 }
-body .container .inicio .cine h4 {
+.container .inicio .cine h4 {
   padding: 10px;
 }
-body .container .inicio .cine .modal-content {
+.container .inicio .cine img {
+  border-radius: 40px;
+}
+.container .inicio .cine .modal-content {
   margin: 10px;
   justify-content: center;
 }
-body .container .inicio .cine .modal-content img {
+.container .inicio .cine .modal-content img {
   padding: 5px;
   width: auto;
+  border-radius: 50px;
 }
-body .container .inicio .cine .modal-content p {
+.container .inicio .cine .modal-content p {
   padding: 5px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-body #anuncio {
+
+#anuncio {
   position: fixed;
   top: 280px;
   right: 20px;
 }
-body #anuncio:hover .x {
+#anuncio:hover .x {
   font-weight: bold;
   color: red;
   font-size: 20px;
 }
-body #anuncio p {
+#anuncio p {
   text-align: center;
   color: black;
   font-style: italic;
 }
-body #anuncio img {
+#anuncio img {
   border-radius: 30px solid;
 }
+
 @media only screen and (max-width: 1000px) {
-  body footer {
+  footer {
     border-style: none;
   }
-  body #anuncio {
+  #anuncio {
     display: none;
   }
-  body form {
+  form {
     width: 100%;
   }
 }
+@media only screen and (max-width: 850px) {
+  .adp .crd {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 500px) {
-  body #carouselExampleControls img {
+  header video {
+    width: 100px;
+  }
+  .form-group {
     width: 200px;
   }
-  body .leyenda img {
+  .com form {
+    width: 100%;
+  }
+  .com .map .mapa {
+    width: 220px;
+  }
+  .imgred {
+    height: 200px;
+  }
+  #carouselExampleControls img {
     width: 200px;
   }
-  body .leyenda h3 {
+  .adp .crd {
+    display: flex;
+    flex-direction: column;
+  }
+  .leyenda img {
+    width: 200px;
+  }
+  .leyenda h3 {
     font-size: 5px;
   }
-  body .cine img {
+  .juguetes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+  }
+  .juguetes img {
+    text-align: center;
+  }
+  .cnt {
+    display: flex;
+    flex-direction: column;
+  }
+  .cine img {
     width: 200px;
   }
-  body .cine h3 {
+  .cine h3 {
     font-weight: 5px;
   }
-  body footer div {
+  footer div {
     display: inline-block;
     text-align: center;
   }
-  body footer div img {
+  footer div img {
     width: 75px;
   }
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,9 +1,50 @@
-.header {
-    display: flex;
-    justify-content: center;
+header {
     background-color: $gato_negro;
-    height: 200px;
-    video {
-        height: 200px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+
+    .row {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        video {
+
+       
+            height: 150px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+       a:hover {
+            color: #ffc824;
+        }
+
+        ul {
+            height: 30px;
+            list-style: none;
+        }
+
+        ul li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0px 10px;
+        }
+
+        ul li a {
+            padding: 5px;
+            padding-bottom: 2px;
+            text-align: center;
+            display: flex;
+            color: $gato_blanco;
+        }
+
+
     }
 }

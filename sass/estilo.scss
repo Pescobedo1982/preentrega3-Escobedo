@@ -12,7 +12,9 @@
 }
 
 body {
-    background-color: $gato_blanco;
+    background-image: linear-gradient(to top, rgb(112, 185, 110) , rgb(212, 209, 31));
+}
+
 
     hr {
 
@@ -29,11 +31,16 @@ body {
             justify-content: center;
             margin: 50px;
             padding: 20px;
-
+        
+            img{
+                border-radius: 50px;
+            }
+            
            
                 
             
             h1 {
+                
                 color: $gato_negro;
                 font-size: 50px;
                 font-family: 'Nabla', cursive;
@@ -56,6 +63,7 @@ body {
             }
 
             a:hover {
+                
                 text-decoration: none;
                 color: $gato_rojo;
             }
@@ -71,8 +79,8 @@ body {
                 font-family: 'Alkalami', serif;
                 font-size: 30px;
                 text-align: center;
-                color: $gato_azul;
-                
+                color: $gato_negro;
+               
 
 
             }
@@ -102,6 +110,10 @@ body {
                 margin: 50px;
                
                 @include center;
+                img{
+                    border-radius: 50px;
+                    
+                }
 
                 
 
@@ -117,6 +129,9 @@ body {
                 h4 {
                     padding: 10px;
                 }
+                img{
+                    border-radius: 40px;
+                }
 
                 .modal-content {
                     margin: 10px;
@@ -125,6 +140,7 @@ body {
                     img {
                         padding: 5px;
                         width: auto;
+                        border-radius: 50px;
 
                     }
 
@@ -173,23 +189,60 @@ body {
         #anuncio {
             display: none;
         }
-
+       
         form {
             width: 100%;
+        }
+      
+    }
+
+    @media only screen and (max-width: 850px){
+        .adp{
+            .crd{
+                display: flex;
+                flex-direction: column;
+            }
         }
 
 
     }
 
-
     @media only screen and (max-width: 500px) {
-            
+        header{
+            video{
+                width: 100px;
+            }
+        }    
+        .form-group{
+            width: 200px;
+        }
+        
+        .com{
+                form{
+                width: 100%;
+            }
+            .map{
+                  .mapa{
+                    width: 220px;
+                  }
+                    
+                
+            }
+        }
+            .imgred{
+                height: 200px;
+            }
             #carouselExampleControls{
                 img{
                     width: 200px;
                 }
             }
-        
+            .adp{
+                .crd{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
             .leyenda{
                 
                 img{
@@ -199,6 +252,22 @@ body {
                     font-size: 5px;
                 }
                 
+            }
+            .juguetes{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0px;
+                padding: 0;
+                text-align: center;
+                img{
+                    text-align: center;
+                }
+
+            }
+            .cnt{
+                display: flex;
+                flex-direction: column;
             }
             .cine{
                 
@@ -224,4 +293,3 @@ body {
         }
 
     }
-}

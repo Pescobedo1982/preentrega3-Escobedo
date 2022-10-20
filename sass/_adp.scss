@@ -1,29 +1,51 @@
-@mixin center{
+@mixin center {
     text-align: center;
     align-items: center;
 }
-.container{
-    .adp{
-        @include center;
-        margin: 50px;
-        h1{
-            color: $gato_negro;
-            font-size: 50px;
-            font-family: 'Nabla', cursive;
-            font-family: 'Rubik Dirt', cursive;
-        }
-        h2 {
-            color: $gato_azul
-        }
+
+.adp {
+    @include center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+
+    h1 {
+        color: $gato_negro;
+        font-size: 50px;
+        font-family: 'Nabla', cursive;
+        font-family: 'Rubik Dirt', cursive;
+    }
+
+    h2 {
+        color: $gato_azul
+    }
 
 
-        p {
-            color: $gato_negro;
-            font-size: 20px;
+    p {
+        color: $gato_negro;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .crd {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        .card {
+            background-color: aquamarine;
+            width: 250px;
+            margin: 20px;
+        }
+        h5{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding-bottom: 20px;
+            color: $gato_azul;
         }
-    
-    
-}
+    }
+
+
 }

@@ -2,13 +2,16 @@
     text-align: center;
     align-items: center;
 }
-.container{
+
     .red{
         @include center;
-        
-        margin: 30px;
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
         h1 {
+            
             color: $gato_negro;
             font-size: 50px;
             font-family: 'Nabla', cursive;
@@ -30,10 +33,9 @@
             @include center;
         }
 
-        .redes img {
+        .imgred{
             text-align: center;
-            padding-left: 30px;
+            padding-left: 10px;
         }
 
     }
-}

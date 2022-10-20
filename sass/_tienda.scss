@@ -1,0 +1,107 @@
+@mixin center {
+    text-align: center;
+    align-items: center;
+}
+
+.tnd {
+    @include center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+
+    h1 {
+
+        color: $gato_negro;
+        font-size: 50px;
+        font-family: 'Nabla', cursive;
+        font-family: 'Rubik Dirt', cursive;
+    }
+
+    h2 {
+        color: $gato_azul
+    }
+
+
+    p {
+        color: $gato_negro;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+
+
+}
+
+.tittienda {
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    color: $gato_negro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cnt {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+
+    #contenedor {
+
+        #boton {
+            display: none;
+
+        }
+
+        &:hover #boton {
+            display: block;
+            background-color: $gato_azul;
+            color: $gato_blanco;
+            position: sticky;
+
+        }
+
+        img {
+            padding: 20px;
+            width: 180px;
+        }
+    }
+
+}
+
+.juguetes {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+
+    padding: 20px;
+
+    #contenedor {
+
+        #boton {
+            display: none;
+
+        }
+
+        &:hover #boton {
+            display: block;
+            background-color: $gato_rojo;
+            color: $gato_blanco;
+            position: sticky;
+
+        }
+
+        img {
+            padding: 20px;
+            width: 200px;
+            margin: 50px;
+
+        }
+    }
+}

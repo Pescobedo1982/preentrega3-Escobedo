@@ -29,8 +29,9 @@
 
         }
         form {
+
             text-align: left;
-            width: 80%;
+            width: auto;
             color: aliceblue;
             padding: 10px;
             background-color: rgb(169, 167, 197);
@@ -40,6 +41,26 @@
 
             padding: 10px;
             @include center;
+        }
+        .map{
+            text-align: center;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            margin: 50px;
+            border-color: black 5px;
+            .cel{
+                color: $gato_rojo;
+            }
+            h5{
+                padding: 10px;
+                color: $gato_negro;
+            }
+            
+            .mapa{
+                width: auto;
+                
+            }
         }
     }
 }
